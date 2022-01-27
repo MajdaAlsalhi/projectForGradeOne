@@ -7,6 +7,10 @@ TagManager:
   - Blue
   - Red
   - Yellow
+  - Circle
+  - Triangle
+  - Square
+  - True
   layers:
   - Default
   - TransparentFX

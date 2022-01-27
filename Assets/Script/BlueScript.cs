@@ -5,7 +5,7 @@ using UnityEngine;
 public class BlueScript : MonoBehaviour
 {
 
-    public Material [] material;
+    public Material[] material;
     Renderer rend;
 
     // Start is called before the first frame update
@@ -18,10 +18,10 @@ public class BlueScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "Blue") 
-        { 
+        if (col.gameObject.tag == "Blue")
+        {
             rend.sharedMaterial = material[1];
-            
+
         }
         if (col.gameObject.tag == "Red")
         {
@@ -31,5 +31,6 @@ public class BlueScript : MonoBehaviour
         {
             rend.sharedMaterial = material[3];
         }
+
     }
 }

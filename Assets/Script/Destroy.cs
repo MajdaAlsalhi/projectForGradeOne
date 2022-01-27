@@ -33,7 +33,10 @@ public class Destroy : MonoBehaviour
     }
     private void OnCollisionEnter(Collision col)
     {
-        Destroy(gameObject);
+        if (col.gameObject.tag == "Square" || col.gameObject.tag == "Circle" || col.gameObject.tag == "Triangle")
+        {
+            Destroy(gameObject);
+        }
     }
 
 }
