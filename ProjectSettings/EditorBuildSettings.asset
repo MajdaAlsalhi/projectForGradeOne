@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GradeOne.unity
+    guid: 34a383ed3f0b7d241ba81c8a88e60388
   m_configObjects: {}
