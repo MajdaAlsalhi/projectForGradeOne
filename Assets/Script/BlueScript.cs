@@ -18,11 +18,18 @@ public class BlueScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "Blue")
+        if (col.gameObject.tag == "Blue") 
+        { 
             rend.sharedMaterial = material[1];
+            
+        }
         if (col.gameObject.tag == "Red")
+        {
             rend.sharedMaterial = material[2];
+        }
         if (col.gameObject.tag == "Yellow")
+        {
             rend.sharedMaterial = material[3];
+        }
     }
 }
